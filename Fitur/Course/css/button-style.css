@@ -1,0 +1,51 @@
+/* Tambahkan style untuk button "Tambah Kursus" */
+button#tambah-kursus {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#tambah-kursus:hover {
+  background-color: #3e8e41;
+}
+
+/* Tambahkan style untuk form tambah kursus */
+#form-tambah-kursus {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#form-tambah-kursus h2 {
+  margin-top: 0;
+}
+
+#form-tambah-kursus label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-tambah-kursus input[type="text"], #form-tambah-kursus select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#form-tambah-kursus button#simpan-kursus {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#form-tambah-kursus button#simpan-kursus:hover {
+  background-color: #3e8e41;
+}

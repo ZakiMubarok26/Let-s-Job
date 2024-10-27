@@ -1,0 +1,248 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #444;
+  background-color: #f4f4f9;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+a:hover {
+  color: #003f7f;
+}
+
+/* Header Styles */
+header {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 1.5em 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+header nav ul li {
+  margin: 0;
+}
+
+header nav a {
+  color: #f1f1f1;
+}
+
+/* Main Styles */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  gap: 2em;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+/* Navigation Styles */
+nav.template {
+  background-color: #1a1a1a;
+  padding: 1em;
+  text-align: center;
+}
+
+nav.template ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+nav.template ul li {
+  margin: 0;
+}
+
+nav.template a {
+  color: #f1f1f1;
+  transition: color 0.2s ease;
+}
+
+nav.template a:hover {
+  color: #d1d1d1;
+}
+
+nav.template a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* Video Styles */
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1em;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+header nav ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #d1d1d1;
+}
+
+#kursus-populer {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#kursus-populer h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: calc(25% - 20px); /* Mengatur lebar kartu agar ada empat dalam satu baris */
+  box-sizing: border-box;
+}
+
+.course-image {
+  height: 120px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.course-content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.course-rating {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #ffa500; /* Warna bintang */
+}
+
+.course-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.video-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-list li {
+  width: calc(33.33% - 20px); /* Tiga video per baris */
+  box-sizing: border-box;
+}
+
+.video-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  margin-top: 10px;
+}
+
+.video-info h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.video-info p {
+  font-size: 0.9em;
+  color: #666;
+}

@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font yang lebih modern */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa; /* Warna latar yang lebih cerah */
+}
+
+header {
+  background-color: #1a73e8; /* Biru cerah yang menonjol */
+  color: #fff;
+  padding: 1.5em;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+
+.template-section {
+  background-color: #fff;
+  padding: 2em;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Bayangan lebih besar untuk menonjolkan elemen */
+  border-radius: 10px; /* Sudut yang lebih halus */
+  transition: transform 0.3s ease;
+}
+
+.template-section:hover {
+  transform: scale(1.02); /* Efek zoom saat hover */
+}
+
+.template-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em; /* Menambahkan gap antar elemen */
+  color: #2E4053;
+}
+
+.template {
+  margin: 1em;
+  width: 220px;
+  background-color: #ffffff;
+  border-radius: 15px; /* Menambahkan sudut membulat */
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.template:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Menambahkan efek hover */
+  transform: translateY(-10px); /* Efek floating saat hover */
+}
+
+.template img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0; /* Membulatkan hanya di bagian atas */
+}
+
+.template h3 {
+  color: #1a73e8; /* Mengubah judul menjadi warna biru yang kontras */
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.template p {
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.5;
+  padding: 0 1em;
+}
+
+.template a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+  transition: color 0.3s ease;
+}
+
+.template a:hover {
+  color: #0049b7; /* Warna lebih gelap saat hover */
+}
+
+.download-button {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 30px; /* Bentuk tombol lebih bulat */
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0049b7;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Efek bayangan pada tombol saat hover */
+}
+

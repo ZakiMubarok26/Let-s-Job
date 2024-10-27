@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Topik Video Kursus</title>
+    <style>
+   /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004466;
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffcc00;
+}
+
+/* Main Styles */
+main {
+    padding: 2em;
+}
+
+h2 {
+    color: #004466;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.topik-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
+}
+
+.topik-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ini membuat konten di dalam item disebar secara merata */
+    height: 100%;
+}
+
+.topik-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.topik-item h3 {
+    color: #004466;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Ini memungkinkan judul untuk mengambil ruang yang tersisa dan mendorong tombol ke bawah */
+}
+
+.topik-item p {
+    color: #666;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Ini memungkinkan deskripsi untuk mengambil ruang yang tersisa dan mendorong tombol ke bawah */
+}
+
+.topik-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004466;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Ini memaksa tombol ke bagian bawah kontainer */
+}
+
+.topik-item a:hover {
+    background-color: #003366;
+}
+
+</style>
+</head>
+
+
+<body>
+    <header>
+        <nav class="template">
+            <ul>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="#kursus-terbaru">Video Terbaru</a></li>
+                <li><a href="#tentang-kami">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="topik-kursus">
+            <h2>Daftar Topik Video Terkait CV</h2>
+            <div class="topik-container">
+                <div class="topik-item">
+                    <img src="thumbnail/1.jpg" alt="Thumbnail Pengenalan React Native">
+                    <h3>Kesalahan Pemula Dalam Melamar Kerja</h3>
+                    <p>Membahas kesalahan dalam melamar kerja.</p>
+                    <a href="https://www.youtube.com/embed/eK1mkWfRsKE?si=fKZpmneZvazVD6a9">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/2.jpg" alt="Thumbnail Pengembangan UI dengan React Native">
+                    <h3>Write an Incredible Resume: 5 Golden Rules!</h3>
+                    <p>Tips&Trik cara membuat CV bagi pemula.</p>
+                    <a href="https://www.youtube.com/embed/Tt08KmFfIYQ?si=q4EHUtQjICOPF3jn">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/3t.jpg" alt="Thumbnail State Management di React Native">
+                    <h3>Cara Membuat CV Yang Baik Cuma 10 Menit (FREE TEMPLATE!)</h3>
+                    <p>Cara membuat CV bagi pemula.</p>
+                    <a href="https://www.youtube.com/embed/nNidy2R2FEU?si=CWPdT-3iOkwoQh0m">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/maxresdefault.jpg" alt="Thumbnail Integrasi API di React Native">
+                    <h3>CV/Resume ATS Friendly 2024 (Free Template Word) | dijamin lolos ke tahap interview</h3>
+                    <p>Mempelajari cara membuat CV.</p>
+                    <a href="https://www.youtube.com/embed/JpPoxKdJoeo?si=dTxGmZn7LAWbSB4I">Lihat Video</a>
+                </div>
+                <!-- Tambahkan lebih banyak topik sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section id="topik-kursus">
+            <h2>Daftar Topik Video Terkait Pengembangan Karir</h2>
+            <div class="topik-container">
+                <div class="topik-item">
+                    <img src="thumbnail/5.jpg" alt="Thumbnail Pengenalan React Native">
+                    <h3>Tips Pengembangan Karier Untuk Gen Z | Pengembangan Karir</h3>
+                    <p>Tips pengembangan karir untuk Gen Z.</p>
+                    <a href="https://www.youtube.com/embed/FoVOURJRk40?si=94BSGVKqf47mOyq5">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/6.jpg" alt="Thumbnail Pengembangan UI dengan React Native">
+                    <h3>Cara Mengembangkan Diri Sambil Bekerja</h3>
+                    <p>Membahas cara-cara mengembangkan diri sambil bekerja.</p>
+                    <a href="https://www.youtube.com/embed/WvhlFIvx_Mw?si=VNxzNH9MHYL4QM4w">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/4.jpg" alt="Thumbnail State Management di React Native">
+                    <h3>Cara Mengembangkan Potensi Diri Demi Kesuksesan Karir</h3>
+                    <p>Membahas cara mengembangkan potensi diri.</p>
+                    <a href="https://www.youtube.com/embed/ynctU0YShHk?si=t6Zsl0pSRmAbKCDU">Lihat Video</a>
+                </div>
+                <div class="topik-item">
+                    <img src="thumbnail/7.jpg" alt="Thumbnail Integrasi API di React Native">
+                    <h3>Tips & Trik Untuk Pengembangan Karir</h3>
+                    <p>Berisi tentang topik pengembangan karir.</p>
+                    <a href="https://www.youtube.com/embed/CaH1j-FWROg?si=pkl0gM0t3NznkRhw">Lihat Video</a>
+                </div>
+                <!-- Tambahkan lebih banyak topik sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
